@@ -181,7 +181,7 @@ def main():
             st.write("**Dataset Info:**")
             info_df = pd.DataFrame({
                 'Column': df_filtered.columns,
-                'Data Type': df_filtered.dtypes,
+                'Data Type': df_filtered.dtypes.astype(str),
                 'Non-Null Count': df_filtered.count(),
                 'Null Count': df_filtered.isnull().sum()
             })
