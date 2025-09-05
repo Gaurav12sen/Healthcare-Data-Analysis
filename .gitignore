@@ -1,0 +1,39 @@
+# Logs & cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+
+# Virtual envs
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data (keep sample CSVs tracked)
+*.csv
+!diabetes.csv
+!heart_disease.csv
+
+# VSCode/IDE
+.vscode/
+.idea/
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+
