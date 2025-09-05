@@ -185,7 +185,7 @@ def main():
                 'Non-Null Count': df_filtered.count(),
                 'Null Count': df_filtered.isnull().sum()
             })
-            st.dataframe(info_df)
+            st.dataframe(info_df.astype(str))
         
         # Basic statistics
         st.subheader("Statistical Summary")
