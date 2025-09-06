@@ -185,7 +185,14 @@ def main():
                 'Non-Null Count': df_filtered.count(),
                 'Null Count': df_filtered.isnull().sum()
             })
-            st.dataframe(info_df.astype(str))
+            # Ensure Arrow-compatible types
+            info_df = info_df.astype({
+                'Column': 'string',
+                'Data Type': 'string',
+                'Non-Null Count': 'int64',
+                'Null Count': 'int64'
+            }).astype(str)
+            st.dataframe(info_df)
         
         # Basic statistics
         st.subheader("Statistical Summary")
