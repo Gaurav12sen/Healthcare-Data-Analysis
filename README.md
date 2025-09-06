@@ -2,6 +2,18 @@
 
 A comprehensive data analytics project that analyzes healthcare datasets to understand disease risk factors and build interactive visualizations.
 
+## 🚀 Live Demo
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://healthcare-data-analysis.streamlit.app)
+
+**Try the interactive dashboard:** [https://healthcare-data-analysis.streamlit.app](https://healthcare-data-analysis.streamlit.app)
+
+### Quick Demo Features
+- 📊 **Real-time Data Exploration**: Filter by age, gender, and other factors
+- 📈 **Interactive Visualizations**: Distribution plots, correlation heatmaps, risk analysis
+- 🔍 **Risk Factor Analysis**: Identify key health indicators for disease prediction
+- 📋 **Data Export**: Download filtered datasets for further analysis
+
 ## 🎯 Project Goals
 
 - Analyze health datasets (diabetes, heart disease) to identify risk factors
@@ -77,6 +89,10 @@ jupyter notebook healthcare_analysis.ipynb
 # Launch interactive dashboard
 streamlit run app.py
 ```
+
+#### Option C: Live Demo (No Installation Required)
+
+Visit the live demo at: [https://healthcare-data-analysis.streamlit.app](https://healthcare-data-analysis.streamlit.app)
 
 ## 📁 Project Structure
 
