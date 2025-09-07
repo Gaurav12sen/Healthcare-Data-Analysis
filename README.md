@@ -6,7 +6,7 @@ A comprehensive data analytics project that analyzes healthcare datasets to unde
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://healthcare-data-analysis.streamlit.app)
 
-**Try the interactive dashboard:** [https://healthcare-data-analysis.streamlit.app](https://healthcare-data-analysis.streamlit.app)
+**Try the interactive dashboard:** [https://healthcare-data-analysis.streamlit.app](https://healthcare-data-analysis-b9azjtfrpoweatk3fts8pp.streamlit.app/)
 
 ### Quick Demo Features
 - 📊 **Real-time Data Exploration**: Filter by age, gender, and other factors
